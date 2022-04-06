@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+input[type="text"],input[type="email"],textarea{
+  border: thin solid #dedede;
+  border-radius: 0.25rem;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  outline: none;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1;
+  background-color: transparent;
+}
+
+textarea{
+  font-family: inherit;
+  resize: none;
+}
+
+button,input[type="submit"],input[type="reset"]{
+  border: thin solid gray;
+  padding: 0.5rem 1rem;
+  margin: 5px 5px;
+}
